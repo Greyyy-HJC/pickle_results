@@ -23,4 +23,23 @@ fitter = Fit(file_name, prior, pt2_nstates, pt3_nstates, sum_nstates, sum_tau_cu
 
 fit_result = gv.load("fit_result.pickle")
 
-# %%
+# %% 
+########## time range of best fit: ############
+
+## here b is not included in [a, b], same for all below
+
+# 2pt + 3pt + sum
+
+# 2pt_range = [3, 18], nstates=5      
+# 3pt_range = [3, 15], tau_cut=1 for [2, 11], tau_cut=2 for [11, 15] 
+# sum_range = [3, 14], nstates=5
+
+# 2pt + sum
+
+# 2pt_range = [5, 18], nstates=2
+# sum_range = [5, 14]
+
+# 2pt + 3pt
+
+# 2pt_range = [3, 18], nstates=5
+# 3pt_range = [3, 15], tau_cut=1
