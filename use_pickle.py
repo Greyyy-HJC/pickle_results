@@ -22,7 +22,6 @@ fitter = Fit(file_name, prior, pt2_nstates, pt3_nstates, sum_nstates, sum_tau_cu
 # summation_same_can(self, A3_t, V4_t, p) for situation when pt2_nstates = sum_nstates
 
 fit_result = gv.load("fit_result.pickle")
-
 # %% 
 ########## time range of best fit: ############
 
