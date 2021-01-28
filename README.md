@@ -9,3 +9,4 @@ pip 20.2.4 (python 3.8)
 gvar                 11.5.2
 pickleshare          0.7.5
 jsonschema           3.2.0
+lsqfit               11.5.3
